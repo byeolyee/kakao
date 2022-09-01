@@ -1,11 +1,43 @@
 #status-bar{
-    .status-bar__column{
-        span{
+    display : flex;
+    justify-content: center;
+    padding : 5px 8px;
+    span{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    svg{
+        width : 17px;
+        height : 17px;
+    }
 
+    .status-bar__column{
+        width : 33%;
+        display : flex;
+        align-items: center;
+        &:nth-child(1){
+            span{
+                margin-right: 4px;
+            }
         }
-        svg{
-            width : 20px;
-            height : 20px;
+        &:nth-child(2){
+            display : flex;
+            justify-content: center;
+        }
+        &:nth-child(3){
+            display : flex;
+            justify-content: flex-end;
+            span{
+                margin-right: 4px;
+            }
+            .status-battery{
+                width : 20px;
+                height : 20px;
+            }
+            .status-lightening{
+                width : 10px;
+                height : 10px;
+            }
         }
     }
 }

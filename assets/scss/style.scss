@@ -1,2 +1,8 @@
 // 여기서 scss 파일들 import
+@import "./abstracts/colors";
+@import "./abstracts/fonts";
+@import "./base/reset";
+@import "./abstracts/variables";
+
 @import "./components/statusbar";
+@import "./components/login";
