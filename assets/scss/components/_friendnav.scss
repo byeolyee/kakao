@@ -1,0 +1,22 @@
+#friend-nav{
+    position : fixed;
+    bottom :0;
+    width : 100%;
+    border-top: 1px solid rgba(121,121,121,.3);
+    background-color: $booking-color-navback;
+    padding : 10px 20px;
+    box-sizing: border-box;
+    .friend-nav__list{
+        display : flex;
+        justify-content: space-between;
+        .friend-nav__btn{
+            .friend-nav__link{
+            }
+            svg{
+                width :22px;
+                height: 22px;
+                fill : #2e363e;
+            }
+        }
+    }
+}

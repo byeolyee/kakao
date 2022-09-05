@@ -50,6 +50,9 @@ input:focus {
 }
 
 #status-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   justify-content: center;
   padding: 5px 8px;
@@ -149,4 +152,23 @@ input:focus {
 }
 #login-form a:hover {
   opacity: 0.8;
+}
+
+#friend-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+  background-color: #f9f9fa;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+#friend-nav .friend-nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+#friend-nav .friend-nav__list .friend-nav__btn svg {
+  width: 22px;
+  height: 22px;
+  fill: #2e363e;
 }/*# sourceMappingURL=style.css.map */
