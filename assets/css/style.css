@@ -167,6 +167,24 @@ input:focus {
   display: flex;
   justify-content: space-between;
 }
+#friend-nav .friend-nav__list .friend-nav__btn {
+  position: relative;
+}
+#friend-nav .friend-nav__list .friend-nav__btn .nav__notification {
+  position: absolute;
+  right: -8px;
+  top: -5px;
+  background-color: rgb(255, 9, 9);
+  color: #fff;
+  width: 17px;
+  height: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
 #friend-nav .friend-nav__list .friend-nav__btn svg {
   width: 22px;
   height: 22px;
