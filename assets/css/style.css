@@ -49,6 +49,12 @@ input:focus {
   outline: none;
 }
 
+.m-padding {
+  padding-top: 30px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
 #status-bar {
   position: fixed;
   top: 0;
@@ -91,6 +97,43 @@ input:focus {
 #status-bar .status-bar__column:nth-child(3) .status-lightening {
   width: 10px;
   height: 10px;
+}
+
+#friend-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+  background-color: #f9f9fa;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+#friend-nav .friend-nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+#friend-nav .friend-nav__list .friend-nav__btn {
+  position: relative;
+}
+#friend-nav .friend-nav__list .friend-nav__btn .nav__notification {
+  position: absolute;
+  right: -8px;
+  top: -5px;
+  background-color: rgb(255, 75, 39);
+  color: #fff;
+  width: 17px;
+  height: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+#friend-nav .friend-nav__list .friend-nav__btn svg {
+  width: 22px;
+  height: 22px;
+  fill: #2e363e;
 }
 
 #welcome-header {
@@ -154,38 +197,23 @@ input:focus {
   opacity: 0.8;
 }
 
-#friend-nav {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  border-top: 1px solid rgba(121, 121, 121, 0.3);
-  background-color: #f9f9fa;
-  padding: 10px 20px;
-  box-sizing: border-box;
-}
-#friend-nav .friend-nav__list {
+#screen-header {
   display: flex;
   justify-content: space-between;
 }
-#friend-nav .friend-nav__list .friend-nav__btn {
-  position: relative;
+#screen-header .screen-header__title {
+  font-weight: 900;
+  font-size: 28px;
 }
-#friend-nav .friend-nav__list .friend-nav__btn .nav__notification {
-  position: absolute;
-  right: -8px;
-  top: -5px;
-  background-color: rgb(255, 9, 9);
-  color: #fff;
-  width: 17px;
-  height: 17px;
+#screen-header .screen-header__icons {
   display: flex;
-  justify-content: center;
   align-items: center;
-  border-radius: 50%;
-  font-weight: 600;
-  font-size: 0.8rem;
 }
-#friend-nav .friend-nav__list .friend-nav__btn svg {
+#screen-header .screen-header__icons span {
+  margin-left: 25px;
+}
+
+#screen-header svg {
   width: 22px;
   height: 22px;
   fill: #2e363e;

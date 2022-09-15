@@ -2,8 +2,10 @@
 @import "./abstracts/colors";
 @import "./abstracts/fonts";
 @import "./base/reset";
+@import "./base/preset";
 @import "./abstracts/variables";
 
 @import "./components/statusbar";
+@import "./components/kakaonav";
 @import "./components/login";
-@import "./components/friendnav";
+@import "./components/screenheader";
