@@ -4,8 +4,11 @@
 @import "./base/reset";
 @import "./base/preset";
 @import "./abstracts/variables";
+@import "./components/alarmbadge";
 
 @import "./components/statusbar";
 @import "./components/navbar";
+@import "./components/user";
 @import "./components/login";
 @import "./components/screenheader";
+@import "./components/friends";

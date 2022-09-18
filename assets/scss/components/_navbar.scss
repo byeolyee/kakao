@@ -1,4 +1,4 @@
-#friend-nav{
+#navigation-bar{
     position : fixed;
     bottom :0;
     width : 100%;
@@ -6,27 +6,15 @@
     background-color: $booking-color-navback;
     padding : 10px 20px;
     box-sizing: border-box;
-    .friend-nav__list{
+    .nav__list{
         display : flex;
         justify-content: space-between;
-        .friend-nav__btn{
+        .nav__btn{
             position:relative;
             .nav__notification{
                 position : absolute;
                 right : -8px;
                 top : -5px;
-                background-color: rgb(255, 75, 39);
-                color : #fff;
-                width : 17px;
-                height: 17px;
-                display : flex;
-                justify-content: center;
-                align-items: center;
-                border-radius: 50%;
-                font-weight: 600;
-                font-size: 0.8rem;
-            }
-            .friend-nav__link{
             }
             svg{
                 width :22px;
