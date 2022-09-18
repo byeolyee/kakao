@@ -5,5 +5,7 @@
 *** 
 ## 레퍼런스 이미지
 ### 친구목록
-![친구목록](./assets/images/README/README_friend.jpeg){: width="50%" height="50%"}
+![친구목록](./assets/images/README/README_friend.jpeg)
 
+<!--주석-->
+<!--이미지 크기 수정-->
