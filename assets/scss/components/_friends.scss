@@ -4,6 +4,7 @@
     align-items: center;
     background-color: #fafafa;
     padding : 15px 0;
+    margin-top : 10px;
     p{
         font-weight: 500;
         color : rgba(0,0,0,.8);
@@ -16,5 +17,33 @@
         height: 18px;
         fill : rgba(0,0,0,.3);
         margin-right: 8px;
+    }
+}
+
+#user-component{
+    .user-component__image.profile{
+        width : 70px;
+        height: 70px;
+    }
+    .user-component__subtitle.profile{
+        color : rgba(0,0,0,.8);
+    }
+}
+
+#friends-screen__main{
+    svg{
+        width: 12px;
+        height: 12px;
+        fill : rgba(0,0,0,.5);
+    }
+        .friends-screen-header{
+        display : flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &>div{
+        border-top: 1px solid rgba(0,0,0,.2);
+        padding : 12px 0;
+        color : rgba(0,0,0,.4);
     }
 }

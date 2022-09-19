@@ -41,7 +41,6 @@ a {
   cursor: pointer;
   text-decoration: none;
 }
-
 a:hover, a:focus {
   text-decoration: none;
 }
@@ -57,7 +56,7 @@ input:focus {
 }
 
 .alarm-badge {
-  background-color: #ff4b27;
+  background-color: rgb(255, 75, 39);
   color: #fff;
   width: 17px;
   height: 17px;
@@ -77,46 +76,37 @@ input:focus {
   justify-content: center;
   padding: 5px 8px;
 }
-
 #status-bar span {
   font-size: 14px;
   font-weight: 500;
 }
-
 #status-bar svg {
   width: 17px;
   height: 17px;
 }
-
 #status-bar .status-bar__column {
   width: 33%;
   display: flex;
   align-items: center;
 }
-
 #status-bar .status-bar__column:nth-child(1) span {
   margin-right: 4px;
 }
-
 #status-bar .status-bar__column:nth-child(2) {
   display: flex;
   justify-content: center;
 }
-
 #status-bar .status-bar__column:nth-child(3) {
   display: flex;
   justify-content: flex-end;
 }
-
 #status-bar .status-bar__column:nth-child(3) span {
   margin-right: 4px;
 }
-
 #status-bar .status-bar__column:nth-child(3) .status-battery {
   width: 20px;
   height: 20px;
 }
-
 #status-bar .status-bar__column:nth-child(3) .status-lightening {
   width: 10px;
   height: 10px;
@@ -131,22 +121,18 @@ input:focus {
   padding: 10px 20px;
   box-sizing: border-box;
 }
-
 #navigation-bar .nav__list {
   display: flex;
   justify-content: space-between;
 }
-
 #navigation-bar .nav__list .nav__btn {
   position: relative;
 }
-
 #navigation-bar .nav__list .nav__btn .nav__notification {
   position: absolute;
   right: -8px;
   top: -5px;
 }
-
 #navigation-bar .nav__list .nav__btn svg {
   width: 22px;
   height: 22px;
@@ -158,45 +144,31 @@ input:focus {
   align-items: center;
   margin: 15px 0;
 }
-
 #user-component .user-component__column:first-child {
   display: flex;
   align-items: center;
   flex: 1;
 }
-
-#user-component .user-component__column:first-child .user-component__image.profile {
-  width: 70px;
-  height: 70px;
-}
-
 #user-component .user-component__column:first-child .user-component__image {
   width: 50px;
   height: 50px;
   border-radius: 25px;
   margin-right: 10px;
 }
-
 #user-component .user-component__column:first-child .user-component__text {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 #user-component .user-component__column:first-child .user-component__text .user-component__title {
   font-weight: 800;
   font-size: 1rem;
 }
-
 #user-component .user-component__column:first-child .user-component__text .user-component__subtitle {
   color: rgba(0, 0, 0, 0.4);
-  font-size: .8rem;
+  font-size: 0.8rem;
+  margin-top: 8px;
 }
-
-#user-component .user-component__column:first-child .user-component__text .user-component__subtitle.profile {
-  color: rgba(0, 0, 0, 0.8);
-}
-
 #welcome-header {
   margin: 90px 0;
   text-align: center;
@@ -205,16 +177,14 @@ input:focus {
   align-items: center;
   font-weight: 500;
 }
-
 #welcome-header .welcome-header__title {
   margin-bottom: 20px;
   font-size: 25px;
 }
-
 #welcome-header .welcome-header__text {
   width: 50%;
   font-size: 14px;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 #login-form {
@@ -222,67 +192,56 @@ input:focus {
   flex-direction: column;
   margin: 0 30px;
 }
-
 #login-form input {
   padding: 15px 0;
   margin-bottom: 25px;
   border: 0;
   font-size: 18px;
-  transition: border-bottom .3s ease-in-out;
+  transition: border-bottom 0.3s ease-in-out;
 }
-
 #login-form input:nth-child(1), #login-form input:nth-child(2) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
-
 #login-form input:nth-child(3) {
   padding: 20px 0;
   background-color: #fae100;
   border-radius: 5px;
   font-weight: 600;
   cursor: pointer;
-  transition: opacity .3s;
+  transition: opacity 0.3s;
 }
-
 #login-form input:nth-child(3):hover {
-  opacity: .8;
+  opacity: 0.8;
 }
-
 #login-form input::placeholder {
   color: rgba(0, 0, 0, 0.3);
 }
-
-#login-form input:focus:not([type="submit"]) {
+#login-form input:focus:not([type=submit]) {
   border-bottom: 1px solid #fae100;
 }
-
 #login-form a {
   text-align: center;
   color: inherit;
   cursor: pointer;
   font-size: 13px;
-  transition: opacity .3s;
+  transition: opacity 0.3s;
 }
-
 #login-form a:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 #screen-header {
   display: flex;
   justify-content: space-between;
 }
-
 #screen-header .screen-header__title {
   font-weight: 900;
   font-size: 28px;
 }
-
 #screen-header .screen-header__icons {
   display: flex;
   align-items: center;
 }
-
 #screen-header .screen-header__icons span {
   margin-left: 25px;
 }
@@ -299,8 +258,8 @@ input:focus {
   align-items: center;
   background-color: #fafafa;
   padding: 15px 0;
+  margin-top: 10px;
 }
-
 #friends-display-link p {
   font-weight: 500;
   color: rgba(0, 0, 0, 0.8);
@@ -312,4 +271,27 @@ input:focus {
   fill: rgba(0, 0, 0, 0.3);
   margin-right: 8px;
 }
-/*# sourceMappingURL=style.css.map */
+
+#user-component .user-component__image.profile {
+  width: 70px;
+  height: 70px;
+}
+#user-component .user-component__subtitle.profile {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#friends-screen__main svg {
+  width: 12px;
+  height: 12px;
+  fill: rgba(0, 0, 0, 0.5);
+}
+#friends-screen__main .friends-screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#friends-screen__main > div {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 12px 0;
+  color: rgba(0, 0, 0, 0.4);
+}/*# sourceMappingURL=style.css.map */
