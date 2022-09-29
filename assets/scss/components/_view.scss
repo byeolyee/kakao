@@ -1,0 +1,22 @@
+.view-tab-list{
+    margin: 8px 0;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    .tab{
+        // flex:1;
+        display : flex;
+        flex-shrink: 0;
+        padding : 8px;
+        text-align: center;
+        font-size: 18px;
+        color : rgba(0,0,0,.6);
+        font-weight: 500;
+        &.is-active{
+            color : rgba(0,0,0,.8);
+            font-weight: 700;
+            border-bottom : 2px solid #000;
+        }
+    }
+}

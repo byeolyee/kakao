@@ -55,6 +55,18 @@ input:focus {
   padding-left: 25px;
 }
 
+.scroll-x {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scroll-x::-webkit-scrollbar {
+  display: none;
+}
+
 .alarm-badge {
   background-color: rgb(255, 75, 39);
   color: #fff;
@@ -295,4 +307,26 @@ input:focus {
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   padding: 12px 0;
   color: rgba(0, 0, 0, 0.4);
+}
+
+.view-tab-list {
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+.view-tab-list .tab {
+  display: flex;
+  flex-shrink: 0;
+  padding: 8px;
+  text-align: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+}
+.view-tab-list .tab.is-active {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 700;
+  border-bottom: 2px solid #000;
 }/*# sourceMappingURL=style.css.map */

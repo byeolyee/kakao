@@ -4,3 +4,15 @@
     padding-left : 25px;
     // margin-bottom: 47px;
 }
+
+.scroll-x{
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
